@@ -5,7 +5,10 @@
 export.cfg
 export_presets.cfg
 
+# Output
+build/
 *.translation
 
+# Mono
 .mono/
 data_*/

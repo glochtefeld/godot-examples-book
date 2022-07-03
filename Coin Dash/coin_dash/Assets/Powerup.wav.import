@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Powerup.wav-c0c3bc276b4943ecfbfcbaf1b97db58c.sample"
+
+[deps]
+
+source_file="res://coin_dash/Assets/Powerup.wav"
+dest_files=[ "res://.import/Powerup.wav-c0c3bc276b4943ecfbfcbaf1b97db58c.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

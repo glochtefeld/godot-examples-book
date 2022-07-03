@@ -8,10 +8,27 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "",
+"class": "FmodNative",
+"language": "NativeScript",
+"path": "res://addons/fmod/Fmod.gdns"
+} ]
+_global_script_class_icons={
+"FmodNative": ""
+}
+
 [application]
 
 config/name="Coin Dash"
+run/main_scene="res://Main.tscn"
 config/icon="res://icon.png"
+run/disable_stderr.release=true
+run/disable_stdout.Windows=true
+
+[autoload]
+
+Fmod="*res://addons/fmod/Fmod.tscn"
 
 [display]
 
@@ -20,6 +37,10 @@ window/size/height=720
 window/size/resizable=false
 window/stretch/mode="2d"
 window/stretch/aspect="keep"
+
+[editor_plugins]
+
+enabled=PoolStringArray( "res://addons/fmod/plugin.cfg" )
 
 [physics]
 
